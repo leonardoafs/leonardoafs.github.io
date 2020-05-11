@@ -1,5 +1,19 @@
 body {
   text-align: center;
   background-color: #f0e8c5;
-  backgroud-image: url("./images/digimon-features.jpg") no-repeat center;
+}
+
+div {
+  margin-top: 15px;
+}
+
+.image-section {
+  display: flex;
+  justify-content: center;
+}
+
+.section-style {
+  margin-right: 25px;
+  margin-left: 25px;
+  background-color: white;
 }
