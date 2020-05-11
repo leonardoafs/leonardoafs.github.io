@@ -1,5 +1,5 @@
 body {
   text-align: center;
   background-color: #f0e8c5;
-  backgroud: url('./images/digimon-features.jpg') no-repeat center;
+  backgroud-image: url('./images/digimon-features.jpg') no-repeat center;
 }
