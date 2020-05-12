@@ -1,4 +1,10 @@
 // Variables
+//$chocolate: #7e3e78;
+//$darkSalmon: #854394;
+//$indianRed: #975fb4;
+//$seaShell: #976ed2;
+//$yellow: #d6caf0;
+//$wheat: #cbcba9;
 $chocolate: #111;
 $darkSalmon: #222;
 $indianRed: #333;
@@ -43,7 +49,7 @@ nav {
   width: 5%;/*9.375em;/*150px*/
   min-height: 100%;
   background: $darkSalmon;
-  color: #000;
+  color: #fff;
   overflow: hidden;
   @include transition(width);
 }
