@@ -43,7 +43,7 @@ nav {
   width: 5%;/*9.375em;/*150px*/
   min-height: 100%;
   background: $darkSalmon;
-  color: #fff;
+  color: #000;
   overflow: hidden;
   @include transition(width);
 }
