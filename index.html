@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Site do Leleo!</title>
+    <title>leonardo feliciano</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <script async src="./javascript/index.js"></script>
   </head>
   <body>
-      <marquee>Seja bem vindo ao site do Leozinho Feliciano</marquee>
-      <h1>Site do Leleozinho</h1>
-      <img src='./images/tenor.gif' alt=Gatinho_no_celular'>
-      <img src='./images/giphy.gif' alt=Gatinho_rebolando'>
-      <h2>Novidades:</h2>
-      <h3>Em breve...</h3>
-      
+      <div class="wrapper">
+  <input type="checkbox" name="nav-check" id="nav-check" />
+  <section class="sec-about" id="sec-about">
+    <div class="content">
+      <h1>quem sou eu?</h1>
+      <p>meu nome é leonardo feliciano.</p>
+      <p>sou estudante de engenharia eletrônica e de computação pela ufrj.</p>
+      <p>além disso, sou formado técnico em eletrônica,</p>
+      <p>formado pelo cefet/rj.</p>
+      <p>tenho enorme interesse em telecom, bem como projetos de iot com raspberry pi ou arduino.</p>
+    </div>
+  </section>
+  <section class="sec-portfolio" id="sec-portfolio">
+    <div class="row">
+      <h1>Em breve...</h1>
+    </div>
+  </section>
+  <section class="sec-contact" id="sec-contact">
+    <ul class="soc-media">
+      <li><a href="https://twitter.com/leonardoafs" class="fa fa-twitter" target="_blank"></a></li>
+      <li><a href="https://www.facebook.com/leonardoafs" class="fa fa-facebook" target="_blank"></a></li>
+      <li><a href="https://www.instagram.com/___leozinho/" class="fa fa-instagram" target="_blank"></a></li>
+      <li><a href="https://www.linkedin.com/in/leonardoafs/" class="fa fa-linkedin" target="_blank"></a></li>
+      <li><a href="mailto:leonardoafs@poli.ufrj.br" class="fa fa-envelope"></a></li>
+    </ul>
+  </section>
+  <section class="sec-home" id="sec-home">
+    <div class="content">
+      <h1>olá e bem vindo ao meu site!</h1>
+      <h2><a href="#sec-about">quem</a> sou eu?</h2>
+      <h2><a href="#sec-portfolio">o quê</a> eu faço?</h2>
+      <h2><a href="#sec-contact">onde</a> estou?</h2>
+    </div>
+  </section>
+  <nav role="navigation">
+    <label for="nav-check"></label>
+    <ul class="navigation">
+      <li><a href="#sec-home">início</a></li>
+      <li><a href="#sec-about">sobre</a></li>
+      <li><a href="#sec-portfolio">portfólio</a></li>
+      <li><a href="#sec-contact">fale comigo</a></li>
+    </ul>
+  </nav>
+</div>
   </body>
 </html>
