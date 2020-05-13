@@ -1,10 +1,10 @@
 // Variables
-$chocolate: #ae3e78;
-$darkSalmon: #b54394;
-$indianRed: #a75fb4;
-$seaShell: #e76ed2;
-$yellow: #d6caf0;
-$wheat: #cbcba9;
+$chocolate: blue;
+$darkSalmon: red;
+$indianRed: yellow;
+$seaShell: green;
+$yellow: black;
+$wheat: gray;
 
 // Mixins
 @mixin transition($property) {
