@@ -1,0 +1,28 @@
+{
+   "flight": [
+       {
+           "origem": "GRU",
+           "destino": "LIS",
+           "data_ida": "20/11/2020",
+           "data_volta": "30/11/2020",
+           "pontos": 122200,
+           "link": "https://www.latam.com/pt_br/apps/personas/booking?fecha1_dia=20&fecha1_anomes=2020-11&fecha2_dia=30&fecha2_anomes=2020-11&from_city1=GRU&to_city1=LIS&from_city2=LIS&to_city2=GRU&ida_vuelta=ida_vuelta&cabina=Y&nadults=1&nchildren=0&ninfants=0&application=lanpass#/"
+       },
+       {
+           "origem": "GRU",
+           "destino": "FOR",
+           "data_ida": "31/10/2020",
+           "data_volta": "14/12/2020",
+           "pontos": 56200,
+           "link": "https://www.latam.com/pt_br/apps/personas/booking?fecha1_dia=31&fecha1_anomes=2020-10&fecha2_dia=14&fecha2_anomes=2020-12&from_city1=GRU&to_city1=FOR&from_city2=FOR&to_city2=GRU&ida_vuelta=ida_vuelta&cabina=Y&nadults=1&nchildren=0&ninfants=0&application=lanpass#/"
+       },
+       {
+           "origem": "GRU",
+           "destino": "GIG",
+           "data_ida": "14/10/2020",
+           "data_volta": "19/12/2020",
+           "pontos": 26700,
+           "link": "https://www.latam.com/pt_br/apps/personas/booking?fecha1_dia=14&fecha1_anomes=2020-10&fecha2_dia=19&fecha2_anomes=2020-12&from_city1=GRU&to_city1=GIG&from_city2=GIG&to_city2=GRU&ida_vuelta=ida_vuelta&cabina=Y&nadults=1&nchildren=0&ninfants=0&application=lanpass#/"
+       },
+   ]
+}
