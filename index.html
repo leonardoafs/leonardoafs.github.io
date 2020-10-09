@@ -10,10 +10,16 @@
 
    var people = [];
 
-   $.getJSON('https://leonardoafs.github.io/people.json', function(data) {
-       $.each(data.person, function(i, f) {
-          var tblRow = "<tr>" + "<td>" + f.firstName + "</td>" +
-           "<td>" + f.lastName + "</td>" + "<td>" + f.job + "</td>" + "<td>" + f.roll + "</td>" + "</tr>"
+   $.getJSON('https://leonardoafs.github.io/flights.json', function(data) {
+       $.each(data.flight, function(i, f) {
+          var tblRow = "<tr>" 
+           + "<td>" + f.origem + "</td>" 
+           + "<td>" + f.destino + "</td>" 
+           + "<td>" + f.data_ida + "</td>" 
+           + "<td>" + f.data_volta + "</td>"
+           + "<td>" + f.pontos + "</td>" 
+           + "<td>" + f.link + "</td>" 
+           + "</tr>"
            $(tblRow).appendTo("#userdata tbody");
            console.log(tblRow);
      });
@@ -30,10 +36,12 @@
 <div class="profile">
    <table id= "userdata" border="2">
   <thead>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email Address</th>
-            <th>City</th>
+            <th>Origem</th>
+            <th>Destino</th>
+            <th>Data Ida</th>
+            <th>Data Volta</th>
+            <th>Pontos LATAM Pass</th>
+            <th>Link</th>
         </thead>
       <tbody>
 
