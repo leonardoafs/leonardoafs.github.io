@@ -10,7 +10,7 @@
 
    var people = [];
 
-   $.getJSON('https://leonardoafs.github.io/flights.json', function(data) {
+   $.getJSON('https://leonardoafs.github.io/voos.json', function(data) {
        $.each(data.flight, function(i, f) {
           var tblRow = "<tr>" 
            + "<td>" + f.origem + "</td>" 
