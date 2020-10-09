@@ -12,14 +12,7 @@
 
    $.getJSON('https://leonardoafs.github.io/voos.json', function(data) {
        $.each(data.flight, function(i, f) {
-          var tblRow = "<tr>" 
-           + "<td>" + f.origem + "</td>" 
-           + "<td>" + f.destino + "</td>" 
-           + "<td>" + f.data_ida + "</td>" 
-           + "<td>" + f.data_volta + "</td>"
-           + "<td>" + f.pontos + "</td>" 
-           + "<td>" + f.link + "</td>" 
-           + "</tr>"
+          var tblRow = "<tr>" + "<td>" + f.origem + "</td>" + "<td>" + f.destino + "</td>" + "<td>" + f.data_ida + "</td>" + "<td>" + f.data_volta + "</td>" + "<td>" + f.pontos + "</td>" + "<td>" + f.link + "</td>" + "</tr>";
            $(tblRow).appendTo("#userdata tbody");
            console.log(tblRow);
      });
